@@ -1,0 +1,27 @@
+* {
+    background-color: bisque;
+}
+
+form {
+    color: brown;
+}
+
+legend {
+    color: black;
+}
+
+.user {
+    font-size: 20px;
+}
+
+#register {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+/* div {
+    padding: 50px;
+    float: right;
+} */

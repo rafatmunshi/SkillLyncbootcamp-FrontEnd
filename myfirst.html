@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- relative file path-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="custom.js"></script>
+</head>
+
+<body>
+    <!-- This is a comment-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <h1>This is a heading</h1>
+                <p> This is my website content. This is a lot of content. This is my website content. This <br/> is a lot of content. This is my website content. This is a lot of content. </p>
+                Contact me-
+                <a href="html.html" target="_blank">Your name</a>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <ol type="A">
+                    <li>
+                        My favourite course-
+                    </li>
+                    <li>
+                        <img height="200px" width="300px" alt="Founders" src="https://images.outlookindia.com/public/uploads/articles/2021/2/4/Skill-Lync_20210204_570_850.jpg" />
+                    </li>
+                </ol>
+
+            </div>
+            <div class="col-lg-2 col-sm-12">
+                <ul type="disk">
+                    <li>First</li>
+                    <li>Second</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <form>
+                <fieldset>
+                    <legend>Login:</legend>
+                    <div class="col">
+                        <span class="user">Username: </span><input type="text">
+                        <span class="user">Password: </span>
+                        <input type="password">
+                    </div>
+                    <div class="col">
+                        <span id="register">Register:</span>
+                        <!-- <br> Gender: Male: <input type="radio" value="Male"> Female: <input type="radio" value="female"> -->
+                        <select>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-primary" onClick="alert('Hello World!')">Submit</button>
+                        <!-- <input type="submit"> -->
+                        <button value="Reset">Reset information</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // alert("In script!");
+    </script>
+</body>
+
+</html>
